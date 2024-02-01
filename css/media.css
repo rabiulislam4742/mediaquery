@@ -1,0 +1,96 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    body{
+        background-color: rgb(75, 0, 75);
+    }
+
+
+    h1{
+        font-size: 37px;
+        font-weight: 500;
+        color: yellow;
+        text-align: center;
+        border-bottom: 2px solid #717110;
+        border-radius: 30px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    body{
+        background-color: #2c2a2c;
+    }
+
+    h1{
+        font-size: 37px;
+        font-weight: 500;
+        color: rgb(0, 215, 162);
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    body{
+        background-color: #001679;
+    }
+
+    h1{
+        font-size: 37px;
+        font-weight: 500;
+        color: rgb(237, 0, 0);
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    body{
+        background-color: #1b684b;
+    }
+
+    h1{
+        padding: 10px 142px;
+        font-size: 37px;
+        font-weight: 500;
+        color: rgb(244, 203, 0);
+        border-bottom: 2px solid #d3cece;
+        border-radius: 19px;
+    }
+ }
+/* Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+    body{
+        background-color: #c4c3c4;
+    }
+
+    h1{
+        font-size: 57px;
+        font-weight: 500;
+        color: rgb(1, 13, 3);
+    }
+ }
+
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+    body{
+        background-color: #4d8179;
+    }
+
+    h1{
+        padding: 10px 90px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 59px;
+        color: rgb(245 166 38 / 93%);
+        border-bottom: 2px solid #dddd;
+        border-radius: 100px;
+    }
+    
+   
+
+}
