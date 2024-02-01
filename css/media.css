@@ -70,7 +70,9 @@
     h1{
         font-size: 57px;
         font-weight: 500;
-        color: rgb(1, 13, 3);
+        color: rgb(245 166 38 / 93%);
+        border-bottom: 2px solid #dddd;
+        border-radius: 100px;
     }
  }
 
